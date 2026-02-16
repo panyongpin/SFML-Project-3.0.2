@@ -1,0 +1,53 @@
+﻿  main.cpp
+C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,63): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'sf::VideoMode'
+      C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,63):
+      'sf::VideoMode::VideoMode': no overloaded function could convert all the argument types
+          C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\include\SFML\Window\VideoMode.hpp(61,5):
+          could be 'sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)'
+              C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,63):
+              'sf::VideoMode::VideoMode(sf::Vector2u,unsigned int)': cannot convert argument 1 from 'unsigned int' to 'sf::Vector2u'
+                  C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,64):
+                  'sf::Vector2<unsigned int>::Vector2': no overloaded function could convert all the argument types
+                      C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\include\SFML\System\Vector2.hpp(205,1):
+                      could be 'sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)'
+                          C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,64):
+                          'sf::Vector2<unsigned int>::Vector2(sf::Vector2<unsigned int> &&)': cannot convert argument 1 from 'unsigned int' to 'sf::Vector2<unsigned int> &&'
+                              C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,64):
+                              Reason: cannot convert from 'unsigned int' to 'sf::Vector2<unsigned int>'
+                              C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,64):
+                              Conversion requires a second user-defined-conversion operator or constructor
+                      C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\include\SFML\System\Vector2.hpp(205,1):
+                      or       'sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)'
+                          C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,64):
+                          'sf::Vector2<unsigned int>::Vector2(const sf::Vector2<unsigned int> &)': cannot convert argument 1 from 'unsigned int' to 'const sf::Vector2<unsigned int> &'
+                              C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,64):
+                              Reason: cannot convert from 'unsigned int' to 'const sf::Vector2<unsigned int>'
+                              C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,64):
+                              Conversion requires a second user-defined-conversion operator or constructor
+                      C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,64):
+                      while trying to match the argument list '(unsigned int)'
+          C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,63):
+          while trying to match the argument list '(unsigned int, unsigned int)'
+  
+C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,49): error C2665: 'sf::RenderWindow::RenderWindow': no overloaded function could convert all the argument types
+      C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      could be 'sf::RenderWindow::RenderWindow(sf::RenderWindow &&)'
+          C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,49):
+          'sf::RenderWindow::RenderWindow(sf::RenderWindow &&)': cannot convert argument 1 from 'const char [12]' to 'sf::RenderWindow &&'
+              C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,80):
+              Reason: cannot convert from 'const char [12]' to 'sf::RenderWindow'
+      C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\include\SFML\Graphics\RenderWindow.hpp(206,1):
+      or       'sf::RenderWindow::RenderWindow(const sf::RenderWindow &)'
+          C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,49):
+          'sf::RenderWindow::RenderWindow(const sf::RenderWindow &)': cannot convert argument 1 from 'const char [12]' to 'const sf::RenderWindow &'
+              C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,80):
+              Reason: cannot convert from 'const char [12]' to 'const sf::RenderWindow'
+      C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\include\SFML\Graphics\RenderWindow.hpp(127,5):
+      or       'sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)'
+          C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,49):
+          'sf::RenderWindow::RenderWindow(sf::WindowHandle,const sf::ContextSettings &)': cannot convert argument 1 from 'const char [12]' to 'sf::WindowHandle'
+              C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,80):
+              Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or parenthesized function-style cast
+      C:\Users\handr\Documents\GitHub\SFML-Project-3.0.2\SFML-Project-3.0.2\main.cpp(8,49):
+      while trying to match the argument list '(const char [12])'
+  
